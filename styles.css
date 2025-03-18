@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1e2f;
+}
+
+#game-container {
+  position: relative;
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid white;
+  background: #87ceeb; /* Sky blue */
+}
+
+#scoreboard {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}

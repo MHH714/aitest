@@ -4,17 +4,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1e1e2f;
+  background: #87ceeb; /* Sky blue */
 }
 
 #game-container {
   position: relative;
-  text-align: center;
 }
 
 canvas {
   border: 2px solid white;
-  background: #87ceeb; /* Sky blue */
+  background: #1e1e2f;
 }
 
 #scoreboard {
